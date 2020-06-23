@@ -97,8 +97,7 @@ public static void main(String[] args){
     list.addAt(6, 456);
     list.delete(7);
     list.delete(7);
-        
-
+    
     list.show();
     
     }
