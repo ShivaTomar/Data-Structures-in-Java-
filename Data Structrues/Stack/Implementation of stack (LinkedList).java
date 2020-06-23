@@ -40,15 +40,13 @@ class Stack{
 
         System.out.println("peek=" +head.data);
     }
-
-   
-
+    
     public boolean Isempty(){
         if(head==null) return true;
         return false;
     }
     
-     public void delete(){
+    public void delete(){
         head=null;
     }
     
