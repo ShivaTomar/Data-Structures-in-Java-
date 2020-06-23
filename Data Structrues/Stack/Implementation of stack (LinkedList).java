@@ -41,15 +41,17 @@ class Stack{
         System.out.println("peek=" +head.data);
     }
 
-    public void delete(){
-        head=null;
-    }
+   
 
     public boolean Isempty(){
         if(head==null) return true;
         return false;
     }
-
+    
+     public void delete(){
+        head=null;
+    }
+    
 }
 
 class runner{
