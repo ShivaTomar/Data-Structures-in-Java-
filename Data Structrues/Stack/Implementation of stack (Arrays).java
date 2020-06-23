@@ -29,11 +29,7 @@ class stack{
             topOfStack--;
         }
     }
-
-    public void delete(){
-        arr=null;
-    }
-
+    
     public void peek(){
         if(!isEmpty()) System.out.println("peek of stack="+arr[topOfStack]);
         else System.out.println("Stack is empty");
@@ -47,6 +43,10 @@ class stack{
     public boolean isFull(){
         if(topOfStack==arr.length) return true;
         return false;
+    }
+    
+    public void delete(){
+        arr=null;
     }
 }
 
