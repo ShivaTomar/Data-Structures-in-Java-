@@ -26,13 +26,11 @@ class QueuebyLinkedList{
             tail=node;
         }
         size++;
-
     }
 
     public int deQueue(){
 
         if(Isempty()){
-
             System.out.println("Queue is Empty");
             return -1;
         }
@@ -47,7 +45,6 @@ class QueuebyLinkedList{
     public int Peek(){
 
         if(Isempty()){
-
             System.out.println("Queue is Empty");
             return -1;
         }
@@ -75,8 +72,8 @@ class QueuebyLinkedList{
             System.out.print(current.data+" ");
             current=current.next;
         }
-        System.out.print(current.data+" ");
-        System.out.println("");
+           System.out.print(current.data+" ");
+           System.out.println("");
     }
 }
 
@@ -95,6 +92,7 @@ class runner{
         System.out.println(q.getSize());
         x= q.Peek();
         System.out.println(x);
+        
         q.show();
     }
 }
