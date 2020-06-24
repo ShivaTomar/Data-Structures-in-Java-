@@ -25,7 +25,6 @@ class stack{
 
         else{
             System.out.println(arr[topOfStack]);
-            arr=Arrays.copyOf(arr, arr.length-1);
             topOfStack--;
         }
     }
